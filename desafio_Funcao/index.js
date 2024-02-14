@@ -22,7 +22,7 @@ function calcularNivel(vitorias, derrotas) {
 }
 
 // Exemplo de uso:
-const vitorias = 100;
-const derrotas = 50;
+let vitorias = 100;
+let derrotas = 50;
 const [saldo, nivel] = calcularNivel(vitorias, derrotas);
 console.log(`O Herói tem um saldo de ${saldo} vitórias e está no nível de ${nivel}.`);
